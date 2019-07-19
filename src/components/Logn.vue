@@ -10,7 +10,7 @@
         <img src="static/img/zhuce.png" with="400" height="200">
        <div class="page-part">
       <mt-field label="手机号" placeholder="输入手机号">
-        <button>发送验证码</button>
+        <button class="bt2" style="color : white">发送验证码</button>
       </mt-field>
        <mt-field label="验证码" placeholder="输入验证码">
       </mt-field>
@@ -31,7 +31,6 @@ export default {
   },
   methods: {
     gotologn () {
-      alert('nihao')
       this.$router.push('/userlist')
     }
   }
@@ -41,5 +40,8 @@ export default {
 <style scoped>
 .bt1{
   margin-top: 180px
+}
+.bt2{
+  background-color: red
 }
 </style>
